@@ -1,3 +1,4 @@
+export const prerender = true
 import { generateState } from "arctic";
 
 import { github } from "~/lib/auth";
