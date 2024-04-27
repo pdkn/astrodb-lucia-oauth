@@ -1,3 +1,4 @@
+export const prerender = true
 import { User, db, eq } from "astro:db";
 import { OAuth2RequestError } from "arctic";
 import { generateId } from "lucia";
