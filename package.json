@@ -8,7 +8,9 @@
     "build": "astro build --remote",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "link-db": "astro db link",
+    "push-db": "astro db push --remote"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
